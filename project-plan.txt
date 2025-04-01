@@ -1,0 +1,19 @@
+Art Style:
+ - Black/White Monochromatic Color Palete
+ - Curved Borders
+ - Simplistic/Minimalistic
+
+Create Post:
+ - Form
+    - Title
+    - Content (Text Box)
+    - Image (Optional)
+ - Saves in Local Storage
+ - Validate Form Input
+
+View Post:
+ - A page to view all posts made taken from local Storage
+
+Modify Post:
+ - When viewing posts, you can click a button (Edit) that lets you make changes
+ - You can also click another button to delete each any available post
