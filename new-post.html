@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Post</title>
+    <title>Create A Post</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <!-- Top Section -->
+    <header>
+        <h1>Create A Post</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="post.html">View / Edit Posts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Posts Creator -->
+    <form id="post-form">
+        <label>Title:</label>
+        <input type="text" id="title" name="title" required>
+        <label>Content:</label>
+        <textarea id="content" name="content" required></textarea>
+        <label>Image:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+        <button type="submit">Create Post</button>
 </body>
 </html>
